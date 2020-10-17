@@ -5,13 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 @import url("https://fonts.googleapis.com/css?family=Space+Mono:400|Work+Sans:400");
 
 :root {
@@ -71,14 +72,31 @@ code {
 html {
   font-size: 3rem;
   box-sizing: border-box;
-} /*18px*/
+}
 
-.App{
+/*18px*/
+.container{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 30%;
+  height: 100vh;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
   margin: 0 auto;
   color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  margin: 0 auto;
 }
